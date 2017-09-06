@@ -23,7 +23,7 @@ When the process finishes, install [SublimeLinter-pep8](https://packagecontrol.i
 
 ### [Optional]
 
-You can customize the syntax checking rules by editing the *SublimeLinter.sublime-settings* file, which is located under `Sublime Text → Preferences → Package Settings → SublimeLinter → Settings – User`.
+You can customize the syntax checking rules by editing the `SublimeLinter.sublime-settings` file, which is located under `Sublime Text → Preferences → Package Settings → SublimeLinter → Settings – User`.
 Add your ignore rules base on [Error and Warning Codes](http://pep8.readthedocs.org/en/latest/intro.html#error-codes). Please be aware that don't add space between comma and the rule number.
 
 For example:
