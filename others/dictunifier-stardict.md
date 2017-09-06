@@ -12,7 +12,7 @@ Wait until the process finishes, then click the dictionaries you want to import 
 
 ![mac_dict01](./images/mac_dict01.png)
 
-**DictUnifier + StarDict**
+### Screenshot
 
 ![mac_dict02](./images/mac_dict02.png)
 

@@ -16,6 +16,6 @@ colorscheme jellybeans
 set nu
 ```
 
-**jellybeans.vim**
+### Screenshot
 
 ![jellybeans.vim](./images/jellybeans-vim.png)

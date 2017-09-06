@@ -10,6 +10,6 @@ Install [LaTeXTools](https://github.com/SublimeText/LaTeXTools) via the Package 
 
 Now you can press `Command + B` to compile *.tex* file via Sublime Text 3 and viewing the result on Skim!
 
-**Sublime Text 3 + MacTeX + Skim**
+### Screenshot
 
 ![Sublime Text 3 + MacTeX + Skim](./images/sublime-text-3-mactex-skim.png)
