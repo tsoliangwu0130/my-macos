@@ -68,4 +68,4 @@ You are all set!
     $ chsh -s /bin/bash
     ```
 
-3. Since Fish doesn't have good compatibility with Bash, I recommend using Zsh + Oh-My-Zsh as a better option. To do so, see more details [here](../zsh/zsh-oh-my-zsh-iterm2-powerline.md).
+3. Since Fish doesn't have good compatibility with Bash, I recommend using [Zsh](http://www.zsh.org/) + [Oh-My-Zsh](http://ohmyz.sh/) as a better option. To do so, see more details [here](../zsh/zsh-oh-my-zsh-iterm2-powerline.md).
