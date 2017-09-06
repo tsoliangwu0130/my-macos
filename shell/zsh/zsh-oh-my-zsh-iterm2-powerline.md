@@ -76,7 +76,7 @@ Choose any font style including **for Powerline**
 
 You are all set!
 
-**Zsh / Oh-My-Zsh + iTerm2 + Powerline**
+### Screenshot
 
 ![zsh-iterm2-powerline](./images/zsh-iterm2-powerline.png)
 
