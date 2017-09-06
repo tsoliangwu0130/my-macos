@@ -50,11 +50,11 @@ Choose any font style including **for Powerline**
 
 You are all set!
 
-**Fish Shell + iTerm2 + Powerline**
+### Screenshot
 
 ![fish-shell-iterm2-powerline](./images/fish-iterm2-powerline.png)
 
-### Screenshot
+### [Optional]
 
 1. In Fish, the `export` command is not allowed to used to edit our variables, like `$PATH`. If you want to append a new path to your `$PATH` variable, here is a simple way by using `set` command like the example below:
 
