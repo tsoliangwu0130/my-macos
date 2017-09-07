@@ -12,7 +12,7 @@ $ chsh -s /bin/zsh
 $ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
-Copy Oh-My-Zsh's `zshrc-template` as `.zshrc`. If you have your own `.zshrc` file, feel free to use your's:
+Copy Oh-My-Zsh's `zshrc.zshrc-template` as `.zshrc`. If you have your own `.zshrc` file, feel free to use your's:
 
 ```
 $ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
