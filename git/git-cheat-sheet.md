@@ -225,6 +225,12 @@ Push commits to a `remote` and `branch`
 $ git push <remote> <branch>
 ```
 
+Force push revision to a `remote` and `branch`
+
+```
+$ git push -f <remote> <branch>
+```
+
 Push tags
 
 ```
