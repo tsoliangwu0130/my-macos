@@ -291,6 +291,12 @@ Update submodules by cloning missing submodules
 $ git submodule update
 ```
 
+Update every submodule to latest commit on origin
+
+```
+$ git submodule foreach --recursive git pull origin master
+```
+
 ### References
 
 1. [Pro Git Book English](https://git-scm.com/book/en/v2)
