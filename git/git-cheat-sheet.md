@@ -228,7 +228,7 @@ $ git push <remote> <branch>
 Force push revision to a `remote` and `branch`
 
 ```
-$ git push -f <remote> <branch>
+$ git push <remote> <branch> --force
 ```
 
 Push tags
