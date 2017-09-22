@@ -34,14 +34,32 @@ set nu
 
 ### [Optional]
 
-You may also enable [powerline](https://github.com/powerline/powerline) for your vim editor. To install powerline on you machine, please refer to my another article: [Zsh / Oh-My-Zsh + iTerm2 + Powerline](../shell/zsh/zsh-oh-my-zsh-iterm2-powerline.md). After setting up powerline on your machine, enable powerline on vim by editting `~/.vimrc`:
+You may also enable [powerline](https://github.com/powerline/powerline) for your vim editor. To install powerline on you machine, please refer to my another article: [Zsh / Oh-My-Zsh + iTerm2 + Powerline](../shell/zsh/zsh-oh-my-zsh-iterm2-powerline.md).
+
+Once setting up powerline on your machine, get the powerline location via pip:
+
+```shell
+$ pip show powerline-status
+
+Name: powerline-status
+Version: 2.6
+Summary: The ultimate statusline/prompt utility.
+Home-page: https://github.com/powerline/powerline
+Author: Kim Silkebaekken
+Author-email: kim.silkebaekken+vim@gmail.com
+License: MIT
+Location: /Users/tsoliang/Library/Python/2.7/lib/python/site-packages
+Requires:
+```
+
+Now enable powerline on vim by editting `~/.vimrc`:
 
 ```shell
 syntax on
 colorscheme jellybeans
 set nu
 
-set rtp+=/Users/tsoliang/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/
+set rtp+=<path_to_powerline>/powerline/bindings/vim/
 set laststatus=2
 set t_Co=256
 ```
