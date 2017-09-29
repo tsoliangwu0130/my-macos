@@ -123,6 +123,11 @@ Mark current commit with a `tag`
 $ git tag <tag>
 ```
 
+Sort all tags by time
+```
+$ git tag | xargs -I@ git log --format=format:"%ci %h @%n" -1 @ | sort
+```
+
 ### [Stash](https://git-scm.com/docs/git-stash)
 
 Save changes away and revert back to the `HEAD` commit
