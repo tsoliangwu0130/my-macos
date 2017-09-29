@@ -320,3 +320,4 @@ $ git submodule foreach --recursive git pull origin master
 
 1. [Pro Git Book English](https://git-scm.com/book/en/v2)
 2. [Pro Git Book 繁體中文](https://git-scm.com/book/zh-tw/v1)
+3. [Stack Overflow](https://stackoverflow.com/)
