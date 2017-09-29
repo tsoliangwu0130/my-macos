@@ -60,12 +60,19 @@ Show differences
 $ git diff
 ```
 
-Show all conflicted files
+Show changed status for each file
+
+```
+$ git diff --name-status
+```
+
+Show all merged conflicted files name
 
 ```
 $ git diff --name-only --diff-filter=U
 ```
 
+**[Note] [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) or [vimdiff](http://michaelthessel.com/using-vimdiff-as-git-diff-tool/) are your good friends when reading a long diff file**
 
 ### [Add](https://git-scm.com/docs/git-add)
 
@@ -124,7 +131,8 @@ $ git tag <tag>
 ```
 
 Sort all tags by time
-```
+
+```shell
 $ git tag | xargs -I@ git log --format=format:"%ci %h @%n" -1 @ | sort
 ```
 
