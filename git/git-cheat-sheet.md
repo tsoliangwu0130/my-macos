@@ -92,7 +92,7 @@ Add all files under current directory except `file` (or files under `path`)
 
 ```
 $ git add .
-$ git reset -- <file | path>
+$ git reset -- <file|path>
 ```
 
 Add all files in entire project for next commit
