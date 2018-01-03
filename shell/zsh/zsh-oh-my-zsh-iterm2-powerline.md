@@ -33,6 +33,7 @@ $ pip install powerline-status --user
 $ pip install git+git://github.com/powerline/powerline
 $ git clone https://github.com/milkbikis/powerline-shell
 $ cd powerline-shell
+$ git checkout 800b9cdac77ff0dccd88b5dfc8c81a478ed1c544
 $ cp config.py.dist config.py
 $ ./install.py
 ```
