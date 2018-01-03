@@ -38,6 +38,8 @@ $ cp config.py.dist config.py
 $ ./install.py
 ```
 
+> TODO: Currently use old version to install. Need to update by using the latest version.
+
 Define your zsh prompt by adding the following code to your `.zshrc` file:
 
 ```shell
