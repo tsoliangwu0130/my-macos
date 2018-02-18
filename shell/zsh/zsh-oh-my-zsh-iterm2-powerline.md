@@ -29,16 +29,9 @@ Now install Powerline:
 
 ```
 $ brew install python
-$ pip install powerline-status --user
-$ pip install git+git://github.com/powerline/powerline
-$ git clone https://github.com/milkbikis/powerline-shell
-$ cd powerline-shell
-$ git checkout 800b9cdac77ff0dccd88b5dfc8c81a478ed1c544
-$ cp config.py.dist config.py
-$ ./install.py
+$ pip install powerline-status
+$ pip install powerline-shell
 ```
-
-> TODO: Currently use old version to install. Need to update by using the latest version.
 
 Define your zsh prompt by adding the following code to your `.zshrc` file:
 
