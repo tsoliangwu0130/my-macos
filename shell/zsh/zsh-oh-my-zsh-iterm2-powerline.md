@@ -29,7 +29,7 @@ Now install Powerline:
 
 ```
 $ brew install python
-$ pip install powerline-status
+$ pip install powerline-status --user
 $ pip install powerline-shell
 ```
 
@@ -37,7 +37,7 @@ Define your zsh prompt by adding the following code to your `.zshrc` file:
 
 ```shell
 function powerline_precmd() {
-    PS1="$(~/powerline-shell/powerline-shell.py $? --shell zsh 2> /dev/null)"
+    PS1="$(powerline-shell --shell zsh $?)"
 }
 
 function install_powerline_precmd() {
