@@ -237,6 +237,13 @@ Fetch and merge all changes from a `remote` and `branch`
 $ git pull <remote> <branch>
 ```
 
+Pull the latest changes form original repository
+
+```
+$ git remote add upstream <git_url>
+$ git pull upstream <branch>
+```
+
 ### [Push](https://git-scm.com/docs/git-push)
 
 Push commits to a `remote` and `branch`
