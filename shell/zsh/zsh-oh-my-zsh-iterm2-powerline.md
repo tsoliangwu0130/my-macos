@@ -65,8 +65,7 @@ Install the [Powerline Fonts](https://github.com/powerline/fonts) by typing the 
 
 ```
 $ git clone https://github.com/powerline/fonts.git
-$ cd fonts
-$ ./install.sh
+$ ./fonts/install.sh
 ```
 
 Finally, go to **iTerm2 Preferences** and click the **Text** tab.
