@@ -25,7 +25,7 @@ $ brew install zsh-autosuggestions
 $ brew install zsh-syntax-highlighting
 ```
 
-Enable plugins by adding the following line to your `.zshrc` file:
+Enable plugins by adding the following lines to your `.zshrc` file:
 
 ```shell
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -40,7 +40,7 @@ $ pip install powerline-status --user
 $ pip install powerline-shell
 ```
 
-Define your zsh prompt by adding the following code to your `.zshrc` file:
+Define your zsh prompt by adding the following codes to your `.zshrc` file:
 
 ```shell
 function powerline_precmd() {
