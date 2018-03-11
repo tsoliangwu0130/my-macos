@@ -5,6 +5,7 @@ Some useful tools and how I set them up on my Mac machine.
 ## Index
 
 * [Editor](/editor)
+    * [Atom](/editor/atom)
     * [Sublime Text](/editor/sublime-text)
     * [Vim](/editor/vim)
 * [Git](/git)
