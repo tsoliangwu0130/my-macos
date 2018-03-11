@@ -20,7 +20,7 @@ Install [LaTeX](https://atom.io/packages/latex) package on Atom:
 $ apm install latex
 ```
 
-To compile `.tex` files, press `ctrl + alt + b`.
+To compile `.tex` files, press `Control + Option + B`.
 
 ### Screenshot
 
