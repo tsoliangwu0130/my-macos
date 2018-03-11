@@ -30,4 +30,4 @@ After installed these tools, now you can view your `.tex` files on [Skim](http:/
 
 ### Contributor
 
-* @jack456054
+* [@jack456054](https://github.com/jack456054)
