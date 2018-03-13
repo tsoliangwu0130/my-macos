@@ -8,7 +8,7 @@
 * `/usr/local/bin`: normal user programs not managed by the distribution package manager
 * `/usr/local/sbin`: as `/usr/bin` to `usr/sbin`
 
-### Rename file(s)
+### Rename File(s)
 
 * Rename file
 
@@ -24,7 +24,7 @@
 
 Note: `rename` could be installed via [Homebrew](https://brew.sh/)
 
-### Secure copy
+### Secure Copy
 
 Copy files between hosts using Secure Copy Protocol over SSH.
 
@@ -38,4 +38,18 @@ Copy files between hosts using Secure Copy Protocol over SSH.
 
     ```
     $ scp -r <source> <destination>
+    ```
+
+### Empty the Command Hash Table
+
+* In Zsh:
+
+    ```
+    $ rehash
+    ```
+
+* In Bash:
+
+    ```
+    $ hash -r
     ```
