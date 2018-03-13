@@ -22,7 +22,7 @@
     $ rename 's/<old_keyword>/<new_keyword>/' <files>
     ```
 
-Note: `rename` could be installed via [Homebrew](https://brew.sh/)
+    **Note**: `rename` could be installed via [Homebrew](https://brew.sh/)
 
 ### Secure Copy
 
