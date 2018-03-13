@@ -1,8 +1,8 @@
 # My macOS
 
-Some useful tools and how I set them up on my Mac machine.
+Some notes of how I setup my macOS environment and some useful cheat sheet.
 
-## Index
+## Table of Contents
 
 * [Editor](/editor)
     * [Atom](/editor/atom)
@@ -13,4 +13,4 @@ Some useful tools and how I set them up on my Mac machine.
     * [Fish](/shell/fish)
     * [Zsh](/shell/zsh)
     * [Commands](/shell/commands)
-* [Others](/others)
+* [Misc.](/misc)
