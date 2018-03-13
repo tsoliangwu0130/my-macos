@@ -12,4 +12,5 @@ Some useful tools and how I set them up on my Mac machine.
 * [Shell](/shell)
     * [Fish](/shell/fish)
     * [Zsh](/shell/zsh)
+    * [Commands](/shell/commands)
 * [Others](/others)
