@@ -1,5 +1,13 @@
 ## Commands Cheat Sheet
 
+### `/bin`, `/sbin`, `/usr/bin`, `/usr/local/bin`,`/usr/local/sbin/`?
+
+* `/bin`: system management programs need before `/usr` is mounted
+* `/sbin`: same as `/bin`. The main difference is the utilities in this directory is mainly and only for admin
+* `/usr/bin`: distribution-managed normal user programs
+* `/usr/local/bin`: normal user programs not managed by the distribution package manager
+* `/usr/local/sbin`: as `/usr/bin` to `usr/sbin`
+
 ### Rename file(s)
 
 * Rename file
