@@ -8,6 +8,48 @@
 * `/usr/local/bin`: normal user programs not managed by the distribution package manager
 * `/usr/local/sbin`: as `/usr/bin` to `usr/sbin`
 
+### `sudo` vs. `su`
+
+* `sudo`: Executes a single command as another user
+
+    * Run command as the user:
+
+    ```
+    $ sudo -u <username> <command>
+    ```
+
+    * Repeat the last command as sudo:
+
+    ```
+    $ sudo !!
+    ```
+
+    * Launch the default shell with another user privileges:
+
+    ```
+    $ sudo -u <username> -i
+    ```
+
+* `su`: Switch shell to another user
+
+    * Switch to superuser without simulating a full login shell (admin password required):
+
+    ```
+    $ su
+    ```
+
+    * Switch to superuser and simulate a full login shell (admin password required):
+
+    ```
+    $ su -
+    ```
+
+    * Switch shell to another user (user password required):
+
+    ```
+    $ su <username>
+    ```
+
 ### Rename File(s)
 
 * Rename file
