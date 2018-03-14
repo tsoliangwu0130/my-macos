@@ -14,41 +14,41 @@
 
     * Run command as the user:
 
-    ```
-    $ sudo -u <username> <command>
-    ```
+        ```
+        $ sudo -u <username> <command>
+        ```
 
     * Repeat the last command as sudo:
 
-    ```
-    $ sudo !!
-    ```
+        ```
+        $ sudo !!
+        ```
 
     * Launch the default shell with another user privileges:
 
-    ```
-    $ sudo -u <username> -i
-    ```
+        ```
+        $ sudo -u <username> -i
+        ```
 
 * `su`: Switch shell to another user
 
     * Switch to superuser without simulating a full login shell (admin password required):
 
-    ```
-    $ su
-    ```
+        ```
+        $ su
+        ```
 
     * Switch to superuser and simulate a full login shell (admin password required):
 
-    ```
-    $ su -
-    ```
+        ```
+        $ su -
+        ```
 
     * Switch shell to another user (user password required):
 
-    ```
-    $ su <username>
-    ```
+        ```
+        $ su <username>
+        ```
 
 ### Rename File(s)
 
