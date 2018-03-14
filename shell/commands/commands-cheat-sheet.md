@@ -23,8 +23,13 @@
         ```
         $ sudo !!
         ```
+    * Launch the default shell with root privileges (user password required):
+ 
+        ```
+        $ sudo -i
+        ```
 
-    * Launch the default shell with another user privileges:
+    * Launch the default shell with another user privileges (user password required):
 
         ```
         $ sudo -u <username> -i
