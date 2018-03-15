@@ -24,7 +24,7 @@
         $ sudo !!
         ```
     * Launch the default shell with root privileges (user password required):
- 
+
         ```
         $ sudo -i
         ```
