@@ -100,3 +100,11 @@ Copy files between hosts using Secure Copy Protocol over SSH.
     ```
     $ hash -r
     ```
+
+### Disk Usage
+
+* Estimate disk usage of all files and subdirectories under currently directory
+
+    ```
+    $ du -h *
+    ```
