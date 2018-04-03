@@ -108,3 +108,17 @@ Copy files between hosts using Secure Copy Protocol over SSH.
     ```
     $ du -h *
     ```
+
+### Information about Running Processes
+
+* List all running processes
+
+    ```
+    $ ps aux
+    ```
+
+* Search for a process that matches a string
+
+    ```
+    $ ps aux | grep string
+    ```
