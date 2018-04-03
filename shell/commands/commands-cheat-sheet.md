@@ -120,5 +120,5 @@ Copy files between hosts using Secure Copy Protocol over SSH.
 * Search for a process that matches a string
 
     ```
-    $ ps aux | grep string
+    $ ps aux | grep <string>
     ```
