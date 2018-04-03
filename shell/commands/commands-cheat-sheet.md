@@ -60,13 +60,13 @@
 * Rename file
 
     ```
-    $ mv <old_name> <new_name>
+    $ mv <old name> <new name>
     ```
 
 * Renames multiple files
 
     ```
-    $ rename 's/<old_keyword>/<new_keyword>/' <files>
+    $ rename 's/<old keyword>/<new keyword>/' <files>
     ```
 
     **Note**: `rename` could be installed via [Homebrew](https://brew.sh/)
@@ -121,4 +121,36 @@ Copy files between hosts using Secure Copy Protocol over SSH.
 
     ```
     $ ps aux | grep <string>
+    ```
+
+### Transfers Data from or to a Server
+
+* Download the contents of an URL to a file
+
+    ```
+    $ curl <URL> -o <filename>
+    ```
+
+* Send a request with an extra header, using a custom HTTP method:
+
+    ```
+    $ curl -H <header> -X <HTTP method> <URL>
+    ```
+
+* Send data in JSON format, specifying the appropriate content-type header:
+
+    ```
+    $ curl -d '{"key": "value"}' -H 'Content-Type: application/json' <URL>
+    ```
+
+* Pass a user name and password for server authentication:
+
+    ```
+    $ curl -u <username>:<password> <URL>
+    ```
+
+* Pass client certificate and key for a resource, skipping certificate validation:
+
+    ```
+    $ curl --cert <cert.pem> --key <key.pem> --insecure <URL>
     ```
