@@ -154,3 +154,29 @@ Copy files between hosts using Secure Copy Protocol over SSH.
   ```
   $ curl --cert <cert.pem> --key <key.pem> --insecure <URL>
   ```
+
+### Find files under the given directory tree recursively
+
+* Find files by pattern
+
+  ```
+  $ find <path> -name <pattern>
+  ```
+
+* Find files by type
+
+  ```
+  $ find <path> -type <type>
+  ```
+
+  Possible file types:
+
+  | type | description |
+  | ---- | ----------- |
+  | **b** | block special |
+  | **c** | character special |
+  | **d** | directory |
+  | **f** | regular file |
+  | **l** | symbolic link |
+  | **p** | FIFO |
+  | **s** | socket |
