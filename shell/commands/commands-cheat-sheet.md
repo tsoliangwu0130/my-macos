@@ -181,10 +181,10 @@ Copy files between hosts using Secure Copy Protocol over SSH.
   | **p** | FIFO |
   | **s** | socket |
 
-  * Find files modified in the last certain days
+* Find files modified in the last certain days
 
-    ```
-    $ find <path> -mtime <days>
+  ```
+  $ find <path> -mtime <days>
     ```
 
-> more: https://blog.gtwang.org/linux/unix-linux-find-command-examples/
+> read more: https://blog.gtwang.org/linux/unix-linux-find-command-examples/
