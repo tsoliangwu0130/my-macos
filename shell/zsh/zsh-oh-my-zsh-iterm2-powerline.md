@@ -44,20 +44,20 @@ Define your zsh prompt by adding the following codes to your `.zshrc` file:
 
 ```shell
 function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)"
+   PS1="$(powerline-shell --shell zsh $?)"
 }
 
 function install_powerline_precmd() {
   for s in "${precmd_functions[@]}"; do
-    if [ "$s" = "powerline_precmd" ]; then
-      return
-    fi
+   if [ "$s" = "powerline_precmd" ]; then
+    return
+   fi
   done
   precmd_functions+=(powerline_precmd)
 }
 
 if [ "$TERM" != "linux" ]; then
-    install_powerline_precmd
+   install_powerline_precmd
 fi
 ```
 
@@ -86,8 +86,8 @@ You are all set!
 
 1. The following command allows you to change shell back to the Bash just in case:
 
-    ```
-    $ chsh -s /bin/bash
-    ```
+   ```
+   $ chsh -s /bin/bash
+   ```
 
 2. You can store your `.zshrc` file somewhere like [GitHub](https://github.com/) or [GitHub Gist](https://gist.github.com/), so that you won't need to configure your shell setting every time.

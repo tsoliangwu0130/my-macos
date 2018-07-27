@@ -12,64 +12,64 @@
 
 * `sudo`: Executes a single command as another user
 
-    * Run command as the user:
+  * Run command as the user:
 
-        ```
-        $ sudo -u <username> <command>
-        ```
+   ```
+   $ sudo -u <username> <command>
+   ```
 
-    * Repeat the last command as sudo:
+  * Repeat the last command as sudo:
 
-        ```
-        $ sudo !!
-        ```
-    * Launch the default shell with root privileges (user password required):
+   ```
+   $ sudo !!
+   ```
+  * Launch the default shell with root privileges (user password required):
 
-        ```
-        $ sudo -i
-        ```
+   ```
+   $ sudo -i
+   ```
 
-    * Launch the default shell with another user privileges (user password required):
+  * Launch the default shell with another user privileges (user password required):
 
-        ```
-        $ sudo -u <username> -i
-        ```
+   ```
+   $ sudo -u <username> -i
+   ```
 
 * `su`: Switch shell to another user
 
-    * Switch to superuser without simulating a full login shell (admin password required):
+  * Switch to superuser without simulating a full login shell (admin password required):
 
-        ```
-        $ su
-        ```
+   ```
+   $ su
+   ```
 
-    * Switch to superuser and simulate a full login shell (admin password required):
+  * Switch to superuser and simulate a full login shell (admin password required):
 
-        ```
-        $ su -
-        ```
+   ```
+   $ su -
+   ```
 
-    * Switch shell to another user (user password required):
+  * Switch shell to another user (user password required):
 
-        ```
-        $ su <username>
-        ```
+   ```
+   $ su <username>
+   ```
 
 ### Rename File(s)
 
 * Rename file
 
-    ```
-    $ mv <old name> <new name>
-    ```
+  ```
+  $ mv <old name> <new name>
+  ```
 
 * Renames multiple files
 
-    ```
-    $ rename 's/<old keyword>/<new keyword>/' <files>
-    ```
+  ```
+  $ rename 's/<old keyword>/<new keyword>/' <files>
+  ```
 
-    **Note**: `rename` could be installed via [Homebrew](https://brew.sh/)
+  **Note**: `rename` could be installed via [Homebrew](https://brew.sh/)
 
 ### Secure Copy
 
@@ -77,80 +77,80 @@ Copy files between hosts using Secure Copy Protocol over SSH.
 
 * Copy files over SSH:
 
-    ```
-    $ scp <source> <destination>
-    ```
+  ```
+  $ scp <source> <destination>
+  ```
 
 * Recursively copy the contents of a directory over SSH:
 
-    ```
-    $ scp -r <source> <destination>
-    ```
+  ```
+  $ scp -r <source> <destination>
+  ```
 
 ### Empty the Command Hash Table
 
 * In Zsh:
 
-    ```
-    $ rehash
-    ```
+  ```
+  $ rehash
+  ```
 
 * In Bash:
 
-    ```
-    $ hash -r
-    ```
+  ```
+  $ hash -r
+  ```
 
 ### Disk Usage
 
 * Estimate disk usage of all files and subdirectories under currently directory
 
-    ```
-    $ du -h *
-    ```
+  ```
+  $ du -h *
+  ```
 
 ### Information about Running Processes
 
 * List all running processes
 
-    ```
-    $ ps aux
-    ```
+  ```
+  $ ps aux
+  ```
 
 * Search for a process that matches a string
 
-    ```
-    $ ps aux | grep <string>
-    ```
+  ```
+  $ ps aux | grep <string>
+  ```
 
 ### Transfers Data from or to a Server
 
 * Download the contents of an URL to a file
 
-    ```
-    $ curl <URL> -o <filename>
-    ```
+  ```
+  $ curl <URL> -o <filename>
+  ```
 
 * Send a request with an extra header, using a custom HTTP method:
 
-    ```
-    $ curl -H <header> -X <HTTP method> <URL>
-    ```
+  ```
+  $ curl -H <header> -X <HTTP method> <URL>
+  ```
 
 * Send data in JSON format, specifying the appropriate content-type header:
 
-    ```
-    $ curl -d '{"key": "value"}' -H 'Content-Type: application/json' <URL>
-    ```
+  ```
+  $ curl -d '{"key": "value"}' -H 'Content-Type: application/json' <URL>
+  ```
 
 * Pass a user name and password for server authentication:
 
-    ```
-    $ curl -u <username>:<password> <URL>
-    ```
+  ```
+  $ curl -u <username>:<password> <URL>
+  ```
 
 * Pass client certificate and key for a resource, skipping certificate validation:
 
-    ```
-    $ curl --cert <cert.pem> --key <key.pem> --insecure <URL>
-    ```
+  ```
+  $ curl --cert <cert.pem> --key <key.pem> --insecure <URL>
+  ```

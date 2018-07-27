@@ -28,7 +28,7 @@ Now, edit `~/.config/fish/config.fish` by typing and redefine `fish_prompt` as f
 
 ```shell
 function fish_prompt
-    ~/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
+   ~/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
 end
 ```
 
@@ -58,14 +58,14 @@ You are all set!
 
 1. In Fish, the `export` command is not allowed to used to edit our variables, like `$PATH`. If you want to append a new path to your `$PATH` variable, here is a simple way by using `set` command like the example below:
 
-    ```
-    $ set PATH $PATH <new_path>
-    ```
+   ```
+   $ set PATH $PATH <new_path>
+   ```
 
 2. The following command allows you to change shell back to the Bash just in case:
 
-    ```
-    $ chsh -s /bin/bash
-    ```
+   ```
+   $ chsh -s /bin/bash
+   ```
 
 3. Since Fish doesn't have good compatibility with Bash, I recommend using [Zsh](http://www.zsh.org/) + [Oh-My-Zsh](http://ohmyz.sh/) as a better option. To do so, see more details [here](../zsh/zsh-oh-my-zsh-iterm2-powerline.md).
