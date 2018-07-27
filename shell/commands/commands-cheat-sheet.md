@@ -171,8 +171,8 @@ Copy files between hosts using Secure Copy Protocol over SSH.
 
   Possible file types:
 
-  | type | description |
-  | ---- | ----------- |
+  | Type | Description |
+  | :--: | ----------- |
   | **b** | block special |
   | **c** | character special |
   | **d** | directory |
