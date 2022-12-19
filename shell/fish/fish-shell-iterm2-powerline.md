@@ -21,7 +21,7 @@ $ pip install git+git://github.com/powerline/powerline
 $ git clone https://github.com/milkbikis/powerline-shell
 $ cd powerline-shell
 $ cp config.py.dist config.py
-$ ./install.py
+$ ./setup.py install
 ```
 
 Now, edit `~/.config/fish/config.fish` by typing and redefine `fish_prompt` as follow:
